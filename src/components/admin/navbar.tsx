@@ -13,8 +13,8 @@ function NavBar() {
   };
 
   return (
-    <div className="relative flex items-center sm:justify-between justify-end gap-2 h-[50px] w-full shadow-md">
-      <div className=" pr-[1050px] sm:pr-[0px] flex flex-row">
+    <div className="relative flex items-center sm:justify-between justify-end gap-2 h-[50px] sm:w-full w-full shadow-md">
+      <div className=" pr-[1400px] sm:pr-[0px] flex flex-row">
         <img
           src="/assets/images/Logo.png"
           alt="Avatar"

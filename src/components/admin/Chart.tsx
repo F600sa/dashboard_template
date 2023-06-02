@@ -57,7 +57,7 @@ const data = [
 function Chart() {
   return (
     <div>
-      <div className="bg-white rounded-lg container  w-[1055px] mx-auto sm:w-[350px] shadow-md flex justify-center flex-col">
+      <div className="bg-white rounded-lg container  w-[1430px] mx-auto sm:w-[450px] shadow-md flex justify-center flex-col">
         <div className="flex flex-row gap-2">
           <div className="py-[20px] pl-[20px] "> Sales</div>
           <div className="h-[15px] w-[15px] pt-[25px] ">

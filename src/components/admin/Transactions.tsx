@@ -2,7 +2,7 @@ import { Transactionss } from "src/core/statics/TransactionsData";
 
 function Transactions() {
   return (
-    <div className="bg-white rounded-lg shadow-md ">
+    <div className="bg-white rounded-lg shadow-md sm:w-[450px]">
       <div className="flex flex-col p-4">
         <h2 className="text-xl font-semibold">Transactions</h2>
         <p className="text-xs text-gray-400">

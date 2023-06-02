@@ -15,7 +15,7 @@ function SalesPage() {
           <SideBar />
         </div>
         <div className="flex justify-center gap-5 items-start sm:pt-[400px]  sm:flex-col sm:pl-[20px] ">
-          <div className=" flex flex-col  sm:pt-[800px] pt-[20px]">
+          <div className=" flex flex-col  sm:pt-[650px] pt-[20px]">
             <Chart />
             <div className="flex flex-row pt-[30px] gap-2  sm:flex-col">
               <CustomerCard />

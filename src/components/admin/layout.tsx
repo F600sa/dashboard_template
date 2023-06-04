@@ -8,7 +8,7 @@ interface LayoutProps {
 }
 function Layout({ children }: LayoutProps) {
   return (
-    <div className="   ">
+    <div className=" container  ">
       <NavBar />
       <div className="sm:hidden bg-black w-[250px] container ">
         <SideBar />

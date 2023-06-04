@@ -29,7 +29,7 @@ function NavBar() {
         />
       </div>
       {open && (
-        <div className="fixed inset-0 z-50 bg-white">
+        <div className=" fixed inset-1 z-50 top-1 left-1 right-[170px] ">
           <div className="absolute top-4 right-4">
             <AiOutlineCloseCircle
               onClick={handleMenuClick}

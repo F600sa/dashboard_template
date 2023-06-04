@@ -21,7 +21,7 @@ export const SideBars: SideBarData[] = [
   {
     name: "Messages",
     images: "bg-icon4",
-    pageRoute: appRoutesObj.getDocsPagePath(),
+    pageRoute: appRoutesObj.getMassegePagePath(),
   },
   {
     name: "Authentication",

@@ -20,13 +20,7 @@ function SideBar() {
       <div className="pt-[20px]"></div>
       {SideBars.map((item, index) => {
         return (
-          <NavLink
-            to={item.pageRoute}
-            key={index}
-            className={({ isActive }) =>
-              isActive ? "text-orange" : "text-black"
-            }
-          >
+          <NavLink to={item.pageRoute} key={index}>
             <div className="flex pl-[20px] items-start justify-start hover:bg-gray-200">
               <div
                 className={`${item.images} bg-cover w-[20px] h-[20px]`}

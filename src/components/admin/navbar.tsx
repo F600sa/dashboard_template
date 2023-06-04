@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { AiOutlineCloseCircle } from "@react-icons/all-files/ai/AiOutlineCloseCircle";
-import { AiOutlineSearch } from "@react-icons/all-files/ai/AiOutlineSearch";
 import { GiHamburgerMenu } from "@react-icons/all-files/gi/GiHamburgerMenu";
 import { IoNotificationsOutline } from "@react-icons/all-files/io5/IoNotificationsOutline";
 import SideBar from "./SideBar";
@@ -29,7 +28,7 @@ function NavBar() {
         />
       </div>
       {open && (
-        <div className="fixed inset-0 z-50  sm:inset-1 sm:z-50 sm:top-1 sm:left-1 sm:right-[170px]">
+        <div className="fixed inset-0 z-100  sm:inset-1 sm:z-50 sm:top-1 sm:left-1 sm:right-[170px]">
           <div className="absolute top-4 right-4">
             <AiOutlineCloseCircle
               onClick={handleMenuClick}

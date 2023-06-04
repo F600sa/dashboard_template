@@ -1,9 +1,8 @@
-import Chart from "./components/admin/Chart";
 import SalesPage from "./containers/admin/SalesPage";
 
 function App() {
   return (
-    <div className=" ">
+    <div className=" bg-gray-100 h-[2050px]">
       <SalesPage />
     </div>
   );

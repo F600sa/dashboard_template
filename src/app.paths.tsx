@@ -44,10 +44,18 @@ class AppRoutes {
   }
   // ./Example
   getDocsPagePath(): string {
-    return `Docs`;
+    return `/Docs`;
   }
 
   getDocsPageUrl(): string {
+    return this.getExamplePagePath();
+  }
+
+  getMassegePagePath(): string {
+    return `/Maassege`;
+  }
+
+  getMassegePageUrl(): string {
     return this.getExamplePagePath();
   }
 }
